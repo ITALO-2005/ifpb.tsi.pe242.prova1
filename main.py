@@ -31,11 +31,26 @@ def q2():
     print(total)
 
 
-
-
-
-
-
-
+def q3():
+    d = int(input("Divisores: "))
+    soma = 0
     
+    for divisor in range(1, d + 1):
+        if d % divisor == 0 and divisor % 3 == 0:
+            soma+=1
+        if soma > 0:
+            print(soma)
+        else:
+            print('O número não possui divisores multiplos de 3')
+        
+        
+def q4():       
+    numero_1 = int(input("Digite o primeiro numero:"))
+    numero_2 = int(input("Digite o segundo numero:"))
 
+    soma = 0
+    numero = 0
+
+    if soma > 0:
+        soma + numero
+    
